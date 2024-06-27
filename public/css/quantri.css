@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.logo {
+    width: 307px;
+    height: 50px;
+    background-color: #00483d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #00483d;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.content-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #00483d;
+    display: flex;
+}
+
+.menu {
+    width: 200px;
+    height: 100%;
+    background-color: #00483d;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.main-content {
+    width: calc(100% - 200px);
+    min-height: 585px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.button-group button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #00483d;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.button-group button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #45a049;
+}
+/***************hien thi san pham**********************/
+.select_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.select_table th,
+.select_table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.select_table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.select_table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.select_table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.select_table tbody td {
+    text-align: center;
+}
+
+.select_table .actions button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.select_table .actions button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.select_table .actions button:hover {
+    background-color: #0056b3;
+}
+
+/*****************them san pham******************/
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#product-list {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+/************sua san pham****************/
+/* Thiết lập bảng */
+.select_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Thiết lập ô tiêu đề và ô dữ liệu */
+.select_table th, .select_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Màu nền cho tiêu đề */
+.select_table th {
+    background-color: #f2f2f2;
+}
+
+/* Thiết lập input */
+.update input[type="text"] {
+    width: calc(100% - 20px); /* Để input không bị tràn ra ngoài bảng */
+    padding: 6px; /* Để input có kích thước hợp lý */
+}
+
+/* Thiết lập nút lưu */
+.update button[type="submit"] {
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Hiệu ứng hover cho nút lưu */
+.update button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/**************them loai do choi*********************/
+.container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"],
+button.edit-btn,
+button.delete-btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button[type="submit"]:hover,
+button.edit-btn:hover,
+button.delete-btn:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

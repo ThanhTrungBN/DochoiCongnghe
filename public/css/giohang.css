@@ -1,0 +1,61 @@
+
+
+.tengiohang {
+    
+    width: 100%px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+
+}
+
+.sanphamcha{
+    width: 1200px;
+    height:auto;
+    flex-wrap: wrap;
+}
+.sanpham {
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 10px ;
+}
+
+.sanpham img {
+    width: 55px;
+    height: 48px;
+    background-color: aquamarine;
+}
+
+.sanpham tr {
+    width: 600px;
+    display: flex;
+    background-color: #00483d;
+}
+
+.nut{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    align-items: center;
+}
+
+table td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 40px;
+    color: aliceblue;
+}
+:hover.nut{
+    color: rgb(0, 0, 0);
+}
